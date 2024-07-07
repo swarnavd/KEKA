@@ -1,0 +1,22 @@
+uuid: 7e7f4646-52d5-4c8d-9357-d892cfb14bae
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.apply_leaves
+id: node.apply_leaves.promote
+field_name: promote
+entity_type: node
+bundle: apply_leaves
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

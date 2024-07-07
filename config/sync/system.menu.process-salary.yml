@@ -1,0 +1,8 @@
+uuid: 62caf854-d4dd-4748-9fee-3250539b51b7
+langcode: en
+status: true
+dependencies: {  }
+id: process-salary
+label: 'Process Salary'
+description: ''
+locked: false

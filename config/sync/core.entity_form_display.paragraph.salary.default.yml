@@ -1,0 +1,32 @@
+uuid: fe62feb8-9b73-4f17-bdc9-750fcf7ee2b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.salary.field_month
+    - field.field.paragraph.salary.field_process_status
+    - paragraphs.paragraphs_type.salary
+  module:
+    - year_month_widget
+id: paragraph.salary.default
+targetEntityType: paragraph
+bundle: salary
+mode: default
+content:
+  field_month:
+    type: year_month_widget
+    weight: 5
+    region: content
+    settings:
+      part_order: MY
+      year_range: ''
+    third_party_settings: {  }
+  field_process_status:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

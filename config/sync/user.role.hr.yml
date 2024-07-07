@@ -1,0 +1,74 @@
+uuid: c6f81efb-b033-4c20-bd3a-35c07add7af2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.user.user.default
+    - node.type.apply_leaves
+    - node.type.article
+    - node.type.salary_processing
+  module:
+    - admin_toolbar_search
+    - block_content
+    - contact
+    - create_user_permission
+    - field_ui
+    - layout_builder
+    - node
+    - paragraphs
+    - simple_content_notifications
+    - toolbar
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer block_content display'
+  - 'administer content notifications'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer user display'
+  - 'administer user fields'
+  - 'administer user form display'
+  - 'administer users'
+  - 'cancel account'
+  - 'change own username'
+  - 'configure all user user layout overrides'
+  - 'configure any layout'
+  - 'configure editable user user layout overrides'
+  - 'create apply_leaves content'
+  - 'create article content'
+  - 'create salary_processing content'
+  - 'create users'
+  - 'delete any apply_leaves content'
+  - 'delete any article content'
+  - 'delete any salary_processing content'
+  - 'delete apply_leaves revisions'
+  - 'delete article revisions'
+  - 'delete own apply_leaves content'
+  - 'delete own article content'
+  - 'delete own salary_processing content'
+  - 'delete salary_processing revisions'
+  - 'edit any apply_leaves content'
+  - 'edit any article content'
+  - 'edit any salary_processing content'
+  - 'edit own apply_leaves content'
+  - 'edit own article content'
+  - 'edit own salary_processing content'
+  - 'revert article revisions'
+  - 'revert salary_processing revisions'
+  - 'select account cancellation method'
+  - 'use admin toolbar search'
+  - 'view apply_leaves revisions'
+  - 'view article revisions'
+  - 'view own unpublished content'
+  - 'view salary_processing revisions'
+  - 'view unpublished paragraphs'
+  - 'view user email addresses'

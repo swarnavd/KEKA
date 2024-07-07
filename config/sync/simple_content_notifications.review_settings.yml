@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: naTP5ZZCgK0-CUl1-oNnVfFVEkEjqxCUoRhUpbmcJlA
+review_notifications_live_domain: drupal.org
+review_notifications_due: '-6 months'
+review_notifications_active: true
+review_notifications_published: 0
+review_notifications_in_dev: 0
+review_notifications_delay: '+7 days'
+review_notifications_subject: 'Website Content Needing Review'
+review_notifications_logging: true
+review_notifications_addresses: itsswarnav007@gmail.com
+review_notifications_field: 06/07/2024

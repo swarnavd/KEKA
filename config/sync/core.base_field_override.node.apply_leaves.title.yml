@@ -1,0 +1,18 @@
+uuid: 549b1bcf-3447-4391-b820-7dad4c13d0a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.apply_leaves
+id: node.apply_leaves.title
+field_name: title
+entity_type: node
+bundle: apply_leaves
+label: 'Leave reason'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

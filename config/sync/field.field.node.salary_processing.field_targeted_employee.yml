@@ -1,0 +1,29 @@
+uuid: 064b31bc-7d9b-4b97-951b-540a669b944b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_targeted_employee
+    - node.type.salary_processing
+id: node.salary_processing.field_targeted_employee
+field_name: field_targeted_employee
+entity_type: node
+bundle: salary_processing
+label: 'Targeted employee'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: a0ec2e9e-1405-4be4-b347-a29a8171aec8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hra
+    - node.type.article
+id: node.article.field_hra
+field_name: field_hra
+entity_type: node
+bundle: article
+label: HRA
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: Rs.
+  suffix: ''
+field_type: decimal

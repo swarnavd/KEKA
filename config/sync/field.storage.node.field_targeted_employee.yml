@@ -1,0 +1,20 @@
+uuid: 49f25474-2f3d-47af-8d5a-905554396efe
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_targeted_employee
+field_name: field_targeted_employee
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

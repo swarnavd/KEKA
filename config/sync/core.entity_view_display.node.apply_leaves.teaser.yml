@@ -1,0 +1,22 @@
+uuid: c57d75d5-94ba-4b49-9690-52789a3ee0b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.apply_leaves.field_pick_your_date
+    - node.type.apply_leaves
+  module:
+    - user
+id: node.apply_leaves.teaser
+targetEntityType: node
+bundle: apply_leaves
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_pick_your_date: true

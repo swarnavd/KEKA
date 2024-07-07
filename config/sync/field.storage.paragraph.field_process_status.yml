@@ -1,0 +1,27 @@
+uuid: 92c8aa30-ea3b-47f5-956d-c5fcca3e1f98
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_process_status
+field_name: field_process_status
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: processed
+      label: Processed
+    -
+      value: rejected
+      label: Rejected
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

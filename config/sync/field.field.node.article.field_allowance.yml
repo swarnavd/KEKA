@@ -1,0 +1,23 @@
+uuid: b67de947-ee98-41cb-ba44-09eebc5f203f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_allowance
+    - node.type.article
+id: node.article.field_allowance
+field_name: field_allowance
+entity_type: node
+bundle: article
+label: Allowance
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: Rs.
+  suffix: ''
+field_type: decimal

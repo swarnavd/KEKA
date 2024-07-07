@@ -1,0 +1,23 @@
+uuid: 1fd9c0c7-7e2b-447e-898f-3abbce2d1261
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_basic
+    - node.type.article
+id: node.article.field_basic
+field_name: field_basic
+entity_type: node
+bundle: article
+label: Basic
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: null
+  prefix: Rs.
+  suffix: ''
+field_type: decimal
