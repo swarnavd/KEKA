@@ -1,0 +1,21 @@
+uuid: 933a7706-76e3-4760-85d7-167d4b200a5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_select_month_and_year
+    - node.type.salary_processing
+  module:
+    - datetime
+id: node.salary_processing.field_select_month_and_year
+field_name: field_select_month_and_year
+entity_type: node
+bundle: salary_processing
+label: 'Select Month and Year'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

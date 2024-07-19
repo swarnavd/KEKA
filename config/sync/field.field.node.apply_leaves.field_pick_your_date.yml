@@ -1,0 +1,21 @@
+uuid: adba3cbf-f070-4ea6-8f04-d93a72fc2919
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pick_your_date
+    - node.type.apply_leaves
+  module:
+    - datetime_range
+id: node.apply_leaves.field_pick_your_date
+field_name: field_pick_your_date
+entity_type: node
+bundle: apply_leaves
+label: 'Pick your date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

@@ -1,0 +1,21 @@
+uuid: 7a5cbd66-6625-4f1c-933f-049f8d228fb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_month
+    - paragraphs.paragraphs_type.salary
+  module:
+    - datetime
+id: paragraph.salary.field_month
+field_name: field_month
+entity_type: paragraph
+bundle: salary
+label: Month
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

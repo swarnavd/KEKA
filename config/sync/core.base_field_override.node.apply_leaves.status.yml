@@ -1,0 +1,22 @@
+uuid: 6974ff19-1abd-4364-95ea-6ba91342baba
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.apply_leaves
+id: node.apply_leaves.status
+field_name: status
+entity_type: node
+bundle: apply_leaves
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

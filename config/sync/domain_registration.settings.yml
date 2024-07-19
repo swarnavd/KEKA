@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: 0xE4emSSHTVKb88WL3yN2IahuH23p8VNAXMZNux6BKs
+method: 0
+pattern: innoraft.com
+message: 'You are not allowed to register for this site.'
+actions: null
+form_build_id: form-szNb5FdbKGUUNRm0-dN1eVeRecEbnK0FIr21qOc0f0E
+form_token: y6DwKZAE10QAums-DWjWTSNveCbFDZ9NpjgWHjuKZEA
+form_id: domain_registration_admin_form

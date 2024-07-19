@@ -1,0 +1,33 @@
+uuid: 0dbd3c57-1f8b-456f-b007-f4b24814ee9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.process-salary
+  module:
+    - system
+    - user
+  theme:
+    - bootstrap
+id: bootstrap_processsalary
+theme: bootstrap
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:process-salary'
+settings:
+  id: 'system_menu_block:process-salary'
+  label: 'Process Salary'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      hr: hr

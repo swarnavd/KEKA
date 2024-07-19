@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 96d38cc5-2641-4b4f-a49b-1aeece7893ca
+name: Keka
+mail: swarnav.das@innoraft.com
+slogan: 'ONE PLATFORM FOR ALL EMPLOYEEEE.'
+page:
+  403: /node/20
+  404: /node/21
+  front: /node/22
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

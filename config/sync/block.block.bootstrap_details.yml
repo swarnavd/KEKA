@@ -1,0 +1,35 @@
+uuid: df7f525b-f3ee-41be-b769-eba6d6f9e4c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.details
+  module:
+    - system
+    - user
+  theme:
+    - bootstrap
+id: bootstrap_details
+theme: bootstrap
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:details'
+settings:
+  id: 'system_menu_block:details'
+  label: Details
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator
+      hr: hr
+      employee: employee

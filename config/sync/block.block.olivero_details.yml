@@ -1,0 +1,36 @@
+uuid: 83dd71c6-7ffe-4595-a74b-717edf195748
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.details
+  module:
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_details
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'system_menu_block:details'
+settings:
+  id: 'system_menu_block:details'
+  label: Details
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      hr: hr
+      employee: employee

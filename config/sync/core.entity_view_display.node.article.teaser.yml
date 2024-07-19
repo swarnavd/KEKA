@@ -1,0 +1,28 @@
+uuid: 70ac38d3-230c-4f11-97cd-1d14d47e1dd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article.field_allowance
+    - field.field.node.article.field_basic
+    - field.field.node.article.field_hra
+    - field.field.node.article.field_targeted_employee
+    - node.type.article
+  module:
+    - user
+_core:
+  default_config_hash: O8PxzfG8DOHHRu6M23kwR6TDPq_MNfYQ10Mp367ICUQ
+id: node.article.teaser
+targetEntityType: node
+bundle: article
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_allowance: true
+  field_basic: true
+  field_hra: true
+  field_targeted_employee: true

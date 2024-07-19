@@ -1,0 +1,8 @@
+uuid: 370c0ae7-5d13-4d0b-97f2-eeb010400ba2
+langcode: en
+status: true
+dependencies: {  }
+id: details
+label: Details
+description: ''
+locked: false

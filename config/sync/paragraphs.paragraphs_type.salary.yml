@@ -1,0 +1,10 @@
+uuid: 51a10c39-1644-4083-af73-97aef54fc897
+langcode: en
+status: true
+dependencies: {  }
+id: salary
+label: Salary
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

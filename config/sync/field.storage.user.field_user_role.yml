@@ -1,0 +1,30 @@
+uuid: 604fccf4-f978-45c7-a438-8e52bb237e1c
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_user_role
+field_name: field_user_role
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: it
+      label: IT
+    -
+      value: sde1
+      label: SDE1
+    -
+      value: sde2
+      label: SDE2
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,41 @@
+uuid: 4df49318-c9c9-4b4f-980b-c21a9064f42a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.last_leave_taken
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__last_leave_taken_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:last_leave_taken-block_1'
+settings:
+  id: 'views_block:last_leave_taken-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/user/*'
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      hr: hr
+      employee: employee

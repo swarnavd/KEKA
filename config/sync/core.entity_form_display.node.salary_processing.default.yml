@@ -1,0 +1,97 @@
+uuid: 8d133a51-6ec3-44af-9588-a1e0f912beb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.salary_processing.field_salary_status
+    - field.field.node.salary_processing.field_select_month_and_year
+    - field.field.node.salary_processing.field_targeted_employee
+    - node.type.salary_processing
+  module:
+    - path
+    - year_month_widget
+id: node.salary_processing.default
+targetEntityType: node
+bundle: salary_processing
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_salary_status:
+    type: entity_reference_autocomplete
+    weight: 121
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_select_month_and_year:
+    type: year_month_widget
+    weight: 122
+    region: content
+    settings:
+      part_order: YD
+      year_range: ''
+    third_party_settings: {  }
+  field_targeted_employee:
+    type: entity_reference_autocomplete
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

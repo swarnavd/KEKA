@@ -1,0 +1,33 @@
+uuid: c321d38a-bb6b-43e0-9f09-c0cb122283e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.salary.field_month
+    - field.field.paragraph.salary.field_process_status
+    - paragraphs.paragraphs_type.salary
+  module:
+    - datetime
+    - options
+id: paragraph.salary.default
+targetEntityType: paragraph
+bundle: salary
+mode: default
+content:
+  field_month:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: month_name
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_process_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

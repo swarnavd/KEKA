@@ -1,0 +1,32 @@
+uuid: 6f0644da-d0c0-40f6-a382-4adbab618fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.apply_leaves.field_pick_your_date
+    - node.type.apply_leaves
+  module:
+    - datetime_range
+    - user
+id: node.apply_leaves.default
+targetEntityType: node
+bundle: apply_leaves
+mode: default
+content:
+  field_pick_your_date:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
